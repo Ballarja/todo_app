@@ -1,6 +1,7 @@
-const ListHeader = () => {
+const ListHeader = ({listName}) => {
     return (
         <div>
+            {listName}
         </div>
     )
 }
